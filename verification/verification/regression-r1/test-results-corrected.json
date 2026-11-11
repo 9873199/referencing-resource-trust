@@ -1,0 +1,29 @@
+{
+  "time": "2026-11-12T01:05:27+08:00",
+  "run_id": "uf-20261111-sec-05-schema-provenance",
+  "checks": {
+    "regression": {
+      "tests": null,
+      "passed": 561,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xfailed": 132,
+      "subtests_passed": 406,
+      "exit_code": 0,
+      "count_source": "pytest terminal summary",
+      "junit_raw_counts": {
+        "tests": 561,
+        "passed": 549,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 12,
+        "failure_cases": [],
+        "exit_code": 0
+      }
+    }
+  },
+  "artifact_hashes_unchanged": true,
+  "score": null,
+  "feedback": "PENDING_SEMANTIC_REVIEW"
+}

@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-12T01:05:27+08:00",
+  "reason": "pytest-subtests JUnit parent rows marked skipped for expected-failure subtests; collector incorrectly reported 549 passed / 12 skipped. Raw command, stdout and XML unchanged; no test rerun.",
+  "raw_log_sha256": "62ee250f152f8905aa6e7f57d17c2d3279ae1c1b39093f7ad951b4d17970dabd",
+  "raw_xml_sha256": "185123caf22ca2fefe8349868d0aede45d190f8ed35fd177a4c881cf3ae0adc2",
+  "original_results": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\regression-r1\\test-results.json",
+  "corrected_results": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\regression-r1\\test-results-corrected.json",
+  "terminal_summary": {
+    "passed": 561,
+    "xfailed": 132,
+    "subtests passed": 406
+  },
+  "counts_checked_against_original_output": true
+}

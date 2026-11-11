@@ -1,0 +1,10 @@
+{
+  "video": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\recording\\r1\\product-run-75s.mp4",
+  "sha256": "6c83e53f88f399387d2b35e019b54d23eabfd713e8bb6786ef80324f3aac2397",
+  "capture_exit_code": 0,
+  "continuous": true,
+  "nominal_seconds": 75,
+  "source": "Fresh actual console process executing frozen-product commands",
+  "helper_is_separate_verification_tool": true,
+  "content_qa": "PENDING"
+}

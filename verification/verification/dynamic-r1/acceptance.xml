@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="6" time="0.608" timestamp="2026-11-12T01:04:09.733234+08:00" hostname="DESKTOP-BPAMAV8"><testcase classname="verification.dynamic-r1.test_acceptance" name="test_external_dynamic_scope_cannot_replace_trusted_dynamic_anchor" time="0.001" /><testcase classname="verification.dynamic-r1.test_acceptance" name="test_alternate_entry_cannot_launder_nested_trusted_identity" time="0.001"><failure message="Failed: DID NOT RAISE Exception">def test_alternate_entry_cannot_launder_nested_trusted_identity():
+        trusted=Registry().with_resource(INTERNAL,resource({'$id':INTERNAL,'$anchor':'rule','const':'trusted'})).crawl()
+        original=trusted.contents(INTERNAL)
+        evil={'$id':EXTERNAL,'$defs':{'part':{'$id':'https://company.local/folder/../policy#','const':'private-alias-sample'}}}
+        calls=[]
+        def retrieve(uri):
+            calls.append(uri)
+            assert uri==EXTERNAL
+            return resource(evil)
+        resolver=api.create(trusted,retrieve,base_uri=EXTERNAL)
+&gt;       with pytest.raises(Exception) as caught:api.lookup(resolver,EXTERNAL+'#/$defs/part')
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE Exception
+
+..\verification\dynamic-r1\test_acceptance.py:39: Failed</failure></testcase><testcase classname="verification.dynamic-r1.test_acceptance" name="test_revisit_same_document_via_fragment_preserves_isolated_cache" time="0.001" /><testcase classname="verification.dynamic-r1.test_acceptance" name="test_nonconflicting_dynamic_ref_really_uses_dynamic_lookup" time="0.001" /><testcase classname="verification.dynamic-r1.test_acceptance" name="test_ref_chain_error_records_parent_and_keyword_without_business_data" time="0.001" /><testcase classname="verification.dynamic-r1.test_acceptance" name="test_fetch_uri_and_declared_id_revisit_share_one_isolated_resource" time="0.001" /></testsuite></testsuites>

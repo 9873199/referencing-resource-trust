@@ -1,0 +1,17 @@
+{
+  "time": "2026-11-12T01:03:35+08:00",
+  "repository": "9873199/referencing-resource-trust",
+  "visibility": "public",
+  "public_unauthenticated_api_verified": true,
+  "initial_sha": "19ad61722eaec82086c37cd47ba4a801a5bd8c91",
+  "final_sha": "9a3a252a656e60e0f93cbaddcfd2265ad37f4213",
+  "initial_url": "https://github.com/9873199/referencing-resource-trust/commit/19ad61722eaec82086c37cd47ba4a801a5bd8c91",
+  "final_url": "https://github.com/9873199/referencing-resource-trust/commit/9a3a252a656e60e0f93cbaddcfd2265ad37f4213",
+  "all_frozen_blob_hashes_verified": true,
+  "initial_is_ancestor": true,
+  "model_commit_chain_preserved": true,
+  "frozen_files": 43,
+  "public_branch": "review-uid119-high-resume-20261111",
+  "automatic_submission": false,
+  "user_review_required": true
+}

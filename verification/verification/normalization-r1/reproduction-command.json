@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "D:\\hc\\userFeedback\\cache\\envs\\uf-20261111-sec-05-schema-provenance\\Scripts\\python.exe",
+    "-B",
+    "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\normalization-r1\\reproduce-schema-alias.py"
+  ],
+  "cwd": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\frozen-artifact",
+  "PYTHONPATH": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\frozen-artifact",
+  "exit_code": 0,
+  "source_sha256": "dbe370888f74f6fddea31a60bc9ccd8d11f921685debb9ff629c7d130825ccf7"
+}

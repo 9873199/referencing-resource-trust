@@ -1,0 +1,22 @@
+.F....
+================================== FAILURES ===================================
+_________ test_alternate_entry_cannot_launder_nested_trusted_identity _________
+
+    def test_alternate_entry_cannot_launder_nested_trusted_identity():
+        trusted=Registry().with_resource(INTERNAL,resource({'$id':INTERNAL,'$anchor':'rule','const':'trusted'})).crawl()
+        original=trusted.contents(INTERNAL)
+        evil={'$id':EXTERNAL,'$defs':{'part':{'$id':'https://company.local/folder/../policy#','const':'private-alias-sample'}}}
+        calls=[]
+        def retrieve(uri):
+            calls.append(uri)
+            assert uri==EXTERNAL
+            return resource(evil)
+        resolver=api.create(trusted,retrieve,base_uri=EXTERNAL)
+>       with pytest.raises(Exception) as caught:api.lookup(resolver,EXTERNAL+'#/$defs/part')
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE Exception
+
+..\verification\dynamic-r1\test_acceptance.py:39: Failed
+=========================== short test summary info ===========================
+FAILED ..\verification\dynamic-r1\test_acceptance.py::test_alternate_entry_cannot_launder_nested_trusted_identity
+1 failed, 5 passed in 0.67s

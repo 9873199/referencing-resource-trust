@@ -1,0 +1,209 @@
+{
+  "time": "2026-11-12T01:09:10+08:00",
+  "reviewed": true,
+  "frozen_commit": "9a3a252a656e60e0f93cbaddcfd2265ad37f4213",
+  "files": [
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\Feedback.md",
+      "path": "Feedback.md",
+      "sha256": "27a1b688191ccfd62f311d71dc0d460acdf403109cc57a1653675b4d0edca036"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\evidence-map.json",
+      "path": "evidence-map.json",
+      "sha256": "cff6cab59890520644b0c46588624c6bd2ce85d27c186f4032b973ebaedd48f3"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\environment-reviewed.json",
+      "path": "environment-reviewed.json",
+      "sha256": "b66040c95729c831759845b89ca2c61c2d5638de396e2d3dd6110ed6ea386690"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\freeze-audit.json",
+      "path": "freeze-audit.json",
+      "sha256": "58853e945e34bb70ed22b59a28ae9ae3500b587d50a20c73a3c5df30992e97e3"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\snapshot-proof.json",
+      "path": "snapshot-proof.json",
+      "sha256": "516815b6f85ed50c7a0b68a1023da440945712a2293d518be4c727974b28d577"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\regression-r1\\count-correction.json",
+      "path": "verification/regression-r1/count-correction.json",
+      "sha256": "76a44506f5036a518cbbefc2ed47e61e095b29b3764a5fea320eca69dcbf539f"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\regression-r1\\declared-suite-dependency.json",
+      "path": "verification/regression-r1/declared-suite-dependency.json",
+      "sha256": "4878ed64800c95f11420d48256a626f6c2c6c630e47742dfeb6a7409c95293ca"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\regression-r1\\regression-command.json",
+      "path": "verification/regression-r1/regression-command.json",
+      "sha256": "2f04e93c40e9bbc52f3f8d1acc3a5e76c4914fa027b9924bebb973940956ca19"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\regression-r1\\regression.log",
+      "path": "verification/regression-r1/regression.log",
+      "sha256": "62ee250f152f8905aa6e7f57d17c2d3279ae1c1b39093f7ad951b4d17970dabd"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\regression-r1\\regression.xml",
+      "path": "verification/regression-r1/regression.xml",
+      "sha256": "185123caf22ca2fefe8349868d0aede45d190f8ed35fd177a4c881cf3ae0adc2"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\regression-r1\\test-results-corrected.json",
+      "path": "verification/regression-r1/test-results-corrected.json",
+      "sha256": "44506255892c1874a9caac76a8c00c1f633267773935d3405b8005b266d3a9f8"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\regression-r1\\test-results.json",
+      "path": "verification/regression-r1/test-results.json",
+      "sha256": "319f3310104d7c233e16b874130288f474b80db3a38b52b1228aa0cb5e0f037e"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\acceptance-r1\\acceptance-command.json",
+      "path": "verification/acceptance-r1/acceptance-command.json",
+      "sha256": "c05c7ecd50c13e2c3fc3383f065b09a0a7ff19b0bf5eaadc6886b9a3f165e27e"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\acceptance-r1\\acceptance-support.json",
+      "path": "verification/acceptance-r1/acceptance-support.json",
+      "sha256": "a76b206d870b6c8ac339a9747bd8537e9a776de6479ea9437cdd76a5d2af0e40"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\acceptance-r1\\acceptance.log",
+      "path": "verification/acceptance-r1/acceptance.log",
+      "sha256": "8abe3fbfbf9f597f933e97829f84ec969102163495f9e147b79fa5bf33e5b752"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\acceptance-r1\\acceptance.xml",
+      "path": "verification/acceptance-r1/acceptance.xml",
+      "sha256": "050366eabba1d4cad62d7c09001336c46614b2fda3ab6f2fff3e238e050f9806"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\acceptance-r1\\declared-suite-dependency.json",
+      "path": "verification/acceptance-r1/declared-suite-dependency.json",
+      "sha256": "4878ed64800c95f11420d48256a626f6c2c6c630e47742dfeb6a7409c95293ca"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\acceptance-r1\\resource_boundary_check.py",
+      "path": "verification/acceptance-r1/resource_boundary_check.py",
+      "sha256": "b42f5819e3c44d298f4d32450ce09dc663b8c81d56a6f56903d6ce951843a97b"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\acceptance-r1\\schema_adapter.py",
+      "path": "verification/acceptance-r1/schema_adapter.py",
+      "sha256": "856f59bd4b17f89bc4ac5dfd600e94cecf4f4b7548e638ba914fe37130f65cbb"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\acceptance-r1\\test-results.json",
+      "path": "verification/acceptance-r1/test-results.json",
+      "sha256": "b95bb6315ed26c79ba2441cf5ecf16393fdfbfe2a51c9f272921c1b7896a2e9e"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\acceptance-r1\\test_acceptance.py",
+      "path": "verification/acceptance-r1/test_acceptance.py",
+      "sha256": "6e986da95f18a4f62701cf2f308f9a598d7d59fec7d2606ac77a8dd049e66033"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\dynamic-r1\\acceptance-command.json",
+      "path": "verification/dynamic-r1/acceptance-command.json",
+      "sha256": "e3f20f16c6ef675acc188b545ed8beb035385be457510ee84942cb0d95184ed2"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\dynamic-r1\\acceptance-support.json",
+      "path": "verification/dynamic-r1/acceptance-support.json",
+      "sha256": "a76b206d870b6c8ac339a9747bd8537e9a776de6479ea9437cdd76a5d2af0e40"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\dynamic-r1\\acceptance.log",
+      "path": "verification/dynamic-r1/acceptance.log",
+      "sha256": "32fade84125661e884c1ed64d4abb5e596d7a5e7f5f8fc25c4b9aeebd8480b6f"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\dynamic-r1\\acceptance.xml",
+      "path": "verification/dynamic-r1/acceptance.xml",
+      "sha256": "794da2820486dfb98f301d9bb112af3fbf9e04d79d5e5cf3904a909232ca3c9c"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\dynamic-r1\\declared-suite-dependency.json",
+      "path": "verification/dynamic-r1/declared-suite-dependency.json",
+      "sha256": "4878ed64800c95f11420d48256a626f6c2c6c630e47742dfeb6a7409c95293ca"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\dynamic-r1\\schema_adapter.py",
+      "path": "verification/dynamic-r1/schema_adapter.py",
+      "sha256": "856f59bd4b17f89bc4ac5dfd600e94cecf4f4b7548e638ba914fe37130f65cbb"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\dynamic-r1\\test-results.json",
+      "path": "verification/dynamic-r1/test-results.json",
+      "sha256": "970b6805dc20e55e32f31bca538bc40089171659c7b5e34b9cde31ca912a5ff2"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\dynamic-r1\\test_acceptance.py",
+      "path": "verification/dynamic-r1/test_acceptance.py",
+      "sha256": "9597cc48e02d42e8fee33f3fa7bc9a9b9ca9609e132bd82ccc164f5850f79f64"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\normalization-r1\\observed-decisions.json",
+      "path": "verification/normalization-r1/observed-decisions.json",
+      "sha256": "71475a2f58acc4bc80634c00a143300e3662a481f0f194bc531ac3d442fd3e7d"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\normalization-r1\\reproduce-schema-alias.py",
+      "path": "verification/normalization-r1/reproduce-schema-alias.py",
+      "sha256": "dbe370888f74f6fddea31a60bc9ccd8d11f921685debb9ff629c7d130825ccf7"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\normalization-r1\\reproduction-command.json",
+      "path": "verification/normalization-r1/reproduction-command.json",
+      "sha256": "8a86168cd344a0b8a29db93afad18897a0fc6f4d1a95fb182a9682a0852002df"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\normalization-r1\\reproduction.log",
+      "path": "verification/normalization-r1/reproduction.log",
+      "sha256": "71475a2f58acc4bc80634c00a143300e3662a481f0f194bc531ac3d442fd3e7d"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\verification\\normalization-r1\\reproduction.stderr.log",
+      "path": "verification/normalization-r1/reproduction.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\recording\\r1\\actual-commands.json",
+      "path": "recording/actual-commands.json",
+      "sha256": "b1500626b05a4d5fb38c6f2b69066b7ac0cbc99fe180cdb5401c5204a22e5f65"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\recording\\r1\\content-review.json",
+      "path": "recording/content-review.json",
+      "sha256": "de61fce8f82b0ff8b2dd4554e5838fc11428ceecc9bee7ea3b50a0417a6a042e"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\recording\\r1\\recording-status.json",
+      "path": "recording/recording-status.json",
+      "sha256": "e1abaa5f7187ccff798892b7d87331581cd78d862eeefa1d090541ae73232ad6"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\recording\\r1\\full-stream-check.json",
+      "path": "recording/full-stream-check.json",
+      "sha256": "bc08e6a2dd54966f343b67eda4d102e1599b09970615a01a21db885014fd4969"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\recording\\r1\\media-metadata.log",
+      "path": "recording/media-metadata.log",
+      "sha256": "601c08804f4543ec8a53ba68edc7a3d6a2202040e864af0c8a4d8a0202784081"
+    }
+  ],
+  "reproduction_readme": "独立验收说明\n\n冻结提交：https://github.com/9873199/referencing-resource-trust/commit/9a3a252a656e60e0f93cbaddcfd2265ad37f4213\n实际解释器：3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]\n\n使用同一冻结提交和environment-reviewed.json中的真实解释器及依赖。回归需declared-suite-dependency.json所列官方suite固定版本，并设置REFERENCING_SUITE指向解压目录；此依赖不是模型源码。执行regression-r1、acceptance-r1与dynamic-r1中的真实命令，support中的schema_adapter.py只映射公开API，不补安全逻辑。回归有效数字取test-results-corrected.json和原始stdout：JUnit子测试父行的skipped不能替代终端统计。normalization-r1/reproduce-schema-alias.py打印同一冻结实现对别名和规范URI的不同选择，退出0表示复现脚本执行完，不表示安全要求通过。所有临时输出映射到自己的缓存；无需容器、外部Schema服务或账号。\n\n每组目录内的 *-command.json 保留真实参数、工作目录、PYTHONPATH、退出码和原始日志位置；test-results.json 与 JUnit XML 保留完整成绩。跨机器运行时把这些绝对路径映射到同一冻结 checkout 和自己的缓存目录，所有 --basetemp、XML 和构建输出均放在缓存里。依赖版本见 environment-reviewed.json。\n这些材料在模型单轮结束后生成，与原轨内测试分开，不代表项目方质检通过。原轨和视频只放各自的飞书附件。\n",
+  "excluded_engineering_attempts": [
+    {
+      "path": "verification/regression-r1/test-results.json",
+      "reason": "collector count interpretation superseded by test-results-corrected.json; same real run/log/XML, not a model failure"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "time": "2026-11-12T01:04:10+08:00",
+  "run_id": "uf-20261111-sec-05-schema-provenance",
+  "checks": {
+    "acceptance": {
+      "tests": 6,
+      "passed": 5,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0,
+      "failure_cases": [
+        "test_alternate_entry_cannot_launder_nested_trusted_identity"
+      ],
+      "exit_code": 1
+    }
+  },
+  "artifact_hashes_unchanged": true,
+  "score": null,
+  "feedback": "PENDING_SEMANTIC_REVIEW"
+}

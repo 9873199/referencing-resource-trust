@@ -1,0 +1,109 @@
+{
+  "time": "2026-11-12T01:09:10+08:00",
+  "uid": 119,
+  "frozen_commit": "9a3a252a656e60e0f93cbaddcfd2265ad37f4213",
+  "native_trajectory_sha256": "2258ab76e5132d137033852d6ad3265b5f14c56f0a2419af192a022c0f430bbe",
+  "private_reasoning_used": false,
+  "requirements": [
+    {
+      "requirement": "optional callable trust boundary; default Registry unaffected",
+      "result": "verified",
+      "source": "referencing/trust.py and unchanged _core.py/__init__.py"
+    },
+    {
+      "requirement": "resource identity handling relative IDs, fragments and normalized references",
+      "result": "PARTIAL_FAILURE",
+      "source": "referencing/trust.py:62,73,396",
+      "evidence": "verification/dynamic-r1/test_alternate_entry_cannot_launder_nested_trusted_identity; normalization-r1/observed-decisions.json"
+    },
+    {
+      "requirement": "trusted URI and anchor/dynamicAnchor conflicts refused; content equality grants no trust",
+      "result": "verified for tested spellings, subject to normalization failure",
+      "evidence": "verification/acceptance-r1 and dynamic-r1"
+    },
+    {
+      "requirement": "isolated external layer, legal recursive references, same-document alternate entry and two resolvers",
+      "result": "verified for tested inputs",
+      "evidence": "verification/acceptance-r1 and dynamic-r1"
+    },
+    {
+      "requirement": "conflict path parent/$ref/$dynamicRef retained, conflict diagnostic excludes samples",
+      "result": "verified",
+      "evidence": "verification/dynamic-r1/test_ref_chain_error_records_parent_and_keyword_without_business_data"
+    },
+    {
+      "requirement": "no hidden network requests, fake retrieve callbacks, callable API and regressions",
+      "result": "verified",
+      "evidence": "frozen source, callbacks and recorded regression"
+    }
+  ],
+  "observable_process": [
+    {
+      "lines": [
+        593,
+        598,
+        600,
+        630,
+        632
+      ],
+      "fact": "model identified and fixed nested claim of root fetch alias, added regressions"
+    },
+    {
+      "lines": [
+        688,
+        737,
+        747
+      ],
+      "fact": "model tests report 561 passed, 132 xfailed, 406 subtests passed; typing and lint reported passing"
+    },
+    {
+      "lines": [
+        703,
+        708
+      ],
+      "fact": "doc8 zero errors and new RST page parsed; full Sphinx unavailable"
+    },
+    {
+      "lines": [
+        750
+      ],
+      "fact": "final answer claims normalized comparison and full completion, but independent absolute-dot-path identity counterexample remains"
+    }
+  ],
+  "independent_suites": [
+    {
+      "path": "verification/regression-r1/test-results-corrected.json",
+      "passed": 561,
+      "xfailed": 132,
+      "subtests_passed": 406,
+      "failures": 0,
+      "count_source": "pytest terminal summary; original XML/collector result preserved"
+    },
+    {
+      "path": "verification/acceptance-r1",
+      "tests": 9,
+      "passed": 9,
+      "failures": 0
+    },
+    {
+      "path": "verification/dynamic-r1",
+      "tests": 6,
+      "passed": 5,
+      "failures": 1
+    },
+    {
+      "path": "verification/normalization-r1",
+      "kind": "diagnostic reproduction, not a passing test suite",
+      "observed": "external-marker by alias, trusted by canonical URI; original registry unchanged"
+    }
+  ],
+  "excluded_engineering_attempts": [
+    {
+      "path": "verification/regression-r1/test-results.json",
+      "reason": "collector count interpretation superseded by test-results-corrected.json; same real run/log/XML, not a model failure"
+    }
+  ],
+  "unverified": [
+    "Full Sphinx documentation build not performed; original run separately checked executable snippets, doc8 and basic RST parsing."
+  ]
+}

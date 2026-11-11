@@ -1,0 +1,13 @@
+{
+  "nested_claim_admitted": true,
+  "claimed_uri": "https://company.local/folder/../policy#",
+  "canonical_uri": "https://company.local/policy",
+  "selected_through_alias": "external-marker",
+  "selected_through_canonical": "trusted",
+  "retrieved_uris": [
+    "https://outside.local/entry"
+  ],
+  "original_registry_length": 1,
+  "original_trusted_value": "trusted",
+  "interpretation": "Observed missing normalized-identity refusal, not a passing security check."
+}

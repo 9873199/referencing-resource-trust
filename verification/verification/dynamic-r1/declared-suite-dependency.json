@@ -1,0 +1,13 @@
+{
+  "official_source": {
+    "url": "https://api.github.com/repos/python-jsonschema/referencing-suite/tarball/8a502de2f75cd436ecf023b350c1bd0698f3a395",
+    "sha": "8a502de2f75cd436ecf023b350c1bd0698f3a395",
+    "archive_sha256": "0ac2d1639c51854f4839e2c0fbf1fe0e4e2fe04a6792d0fa2d7176dee5f5e5ae",
+    "destination": "D:\\hc\\userFeedback\\cache\\workspaces\\uf-20261111-sec-05-schema-provenance\\suite",
+    "source": "Official GitHub API tarball of gitlink commit; .git metadata not supplied",
+    "git_status": ""
+  },
+  "suite": "D:\\hc\\userFeedback\\cache\\execution-security-20261111\\tasks\\uf-20261111-sec-05-schema-provenance\\submodule-extract\\python-jsonschema-referencing-suite-8a502de",
+  "purpose": "Official fixtures selected by upstream-supported REFERENCING_SUITE environment; no product edit",
+  "gitlink_verified": true
+}

@@ -1,0 +1,25 @@
+{
+  "time": "2026-11-12T01:09:10+08:00",
+  "container_used": false,
+  "python": "D:\\hc\\userFeedback\\cache\\envs\\uf-20261111-sec-05-schema-provenance\\Scripts\\python.exe",
+  "dependencies": {
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "module_paths": {
+      "referencing": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\frozen-artifact\\referencing\\__init__.py",
+      "referencing.trust": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-05-schema-provenance\\frozen-artifact\\referencing\\trust.py"
+    },
+    "packages": {
+      "referencing": "0.1.dev1+g19ad61722",
+      "attrs": "26.1.0",
+      "rpds-py": "2026.9.1",
+      "pytest": "9.2.0"
+    }
+  },
+  "external_dependencies": [
+    "Native Windows Python and installed dependency wheels, no container",
+    "Official referencing-suite fixtures at gitlink 8a502de2f75cd436ecf023b350c1bd0698f3a395, declared-suite-dependency.json records archive provenance",
+    "All independent retrieval is in-process fake callbacks; no remote schema server"
+  ],
+  "module_import_verified": true
+}
