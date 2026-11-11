@@ -45,6 +45,7 @@ For fuller details, see the `intro`.
 
     intro
     schema-packages
+    trust-boundary
     compatibility
     api
     changes

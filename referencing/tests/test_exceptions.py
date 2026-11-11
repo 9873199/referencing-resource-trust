@@ -15,6 +15,20 @@ def pairs(choices):
 TRUE = Resource.opaque(True)
 
 
+def trust_boundary_violation():
+    hop = exceptions.TrustBoundaryViolation.Hop(
+        parent=None,
+        via=None,
+        ref="urn:example:entry",
+    )
+    return exceptions.TrustBoundaryViolation(
+        ref="urn:example:entry",
+        kind=exceptions.TrustBoundaryViolation.RESOURCE,
+        claimed="urn:example:trusted",
+        path=(hop,),
+    )
+
+
 thunks = (
     lambda: exceptions.CannotDetermineSpecification(TRUE),
     lambda: exceptions.NoSuchResource("urn:example:foo"),
@@ -24,6 +38,7 @@ thunks = (
     lambda: exceptions.PointerToNowhere(resource=TRUE, ref="urn:example:foo"),
     lambda: exceptions.Unresolvable("urn:example:foo"),
     lambda: exceptions.Unretrievable("urn:example:foo"),
+    trust_boundary_violation,
 )
 
 

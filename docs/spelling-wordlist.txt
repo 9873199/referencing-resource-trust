@@ -2,12 +2,14 @@ amongst
 autodetecting
 boolean
 changelog
+confused-deputy
 deduplication
 dereferenced
 deserialized
 deserializing
 discoverability
 docstrings
+eagerly
 filesystem
 hashable
 hashability
@@ -17,6 +19,7 @@ instantiation
 iterable
 lookups
 metaschemas
+opt-in
 referenceable
 resolvers
 runtime
@@ -26,3 +29,4 @@ submodules
 subresource
 subresources
 unresolvable
+untrusted

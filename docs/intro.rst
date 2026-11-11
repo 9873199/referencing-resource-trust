@@ -237,6 +237,8 @@ Here's an example of automatically retrieving external references by downloading
 
     `referencing` will of course therefore not do any such thing automatically, and this section generally assumes that you have personally considered the security implications for your own use case.
 
+    If you do retrieve external resources, see :doc:`Trust Boundary <trust-boundary>` for an opt-in way to ensure they cannot redefine the identity of a resource you already trust.
+
 Caching
 ^^^^^^^
 

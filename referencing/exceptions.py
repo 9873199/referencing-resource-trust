@@ -4,7 +4,7 @@ Errors, oh no!
 
 from __future__ import annotations
 
-from typing import TYPE_CHECKING, Any
+from typing import TYPE_CHECKING, Any, ClassVar
 
 import attrs
 
@@ -162,4 +162,62 @@ class InvalidAnchor(Unresolvable):
             "plain name anchor nor as a JSON Pointer. You may have intended "
             f"to use '#/{self.anchor}', as the slash is required *before each "
             "segment* of a JSON pointer."
+        )
+
+
+@frozen
+class TrustBoundaryViolation(Unresolvable):
+    """
+    An untrusted external resource claimed an already-trusted identity.
+
+    The claimed identity may be a resource URI, a plain-name anchor, or a
+    dynamic anchor (the ``kind`` field says which, via
+    `TrustBoundaryViolation.RESOURCE`, `TrustBoundaryViolation.ANCHOR`, or
+    `TrustBoundaryViolation.DYNAMIC_ANCHOR`).
+
+    Only URIs and reference paths are recorded -- never the contents of the
+    offending resource -- so that business data carried inside an untrusted
+    document cannot leak into logs through this exception.
+
+    The ``path`` field describes how the offending resource was reached, as
+    a tuple of hops. Each hop is a `TrustBoundaryViolation.Hop` recording the
+    parent resource URI from which a reference was followed, the fully
+    resolved target URI of that reference (before any fragment is removed),
+    and the reference keyword that was followed (``"$ref"`` or
+    ``"$dynamicRef"``), or ``None`` for the initial entrypoint reference.
+    """
+
+    #: The external resource claims a URI already present in the trusted set.
+    RESOURCE: ClassVar[str] = "resource"
+    #: The external resource declares an anchor name already present.
+    ANCHOR: ClassVar[str] = "anchor"
+    #: The external resource declares a dynamic anchor already present.
+    DYNAMIC_ANCHOR: ClassVar[str] = "dynamicAnchor"
+
+    @frozen
+    class Hop:
+        """
+        One hop in the reference path that reached an untrusted resource.
+        """
+
+        #: The URI of the resource the reference was followed from, or
+        #: ``None`` for the initial entrypoint reference.
+        parent: URI | None
+        #: The reference keyword followed (``"$ref"`` or ``"$dynamicRef"``),
+        #: or ``None`` for the initial entrypoint reference.
+        via: str | None
+        #: The fully resolved reference target, fragment included.
+        ref: URI
+
+    ref: URI
+    kind: str
+    claimed: URI
+    path: tuple[Hop, ...]
+
+    def __str__(self) -> str:
+        rendered = " -> ".join(hop.ref for hop in self.path)
+        return (
+            f"Untrusted external resource attempted to redefine the trusted "
+            f"{self.kind} {self.claimed!r} while resolving {self.ref!r} "
+            f"(path: {rendered})."
         )

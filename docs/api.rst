@@ -77,6 +77,14 @@ referencing.retrieval
 .. autoclass:: referencing.retrieval._T
 
 
+referencing.trust
+^^^^^^^^^^^^^^^^^
+
+.. automodule:: referencing.trust
+   :members:
+   :undoc-members:
+
+
 referencing.typing
 ^^^^^^^^^^^^^^^^^^
 

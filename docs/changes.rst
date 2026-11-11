@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Unreleased
+----------
+
+* Add an optional `referencing.trust.TrustBoundary`, which resolves external resources inside an isolated, per-resolution layer and rejects any that claim a URI, anchor or dynamic anchor already owned by the explicitly trusted registry, recording the offending reference path without exposing the untrusted document's contents.
+  The behavior of `referencing.Registry` itself is unchanged.
+
 v0.37.0
 -------
 
